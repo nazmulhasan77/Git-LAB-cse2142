@@ -10,11 +10,22 @@ public class StudentList {
 			try {
 			BufferedReader reader = new BufferedReader(
 					new InputStreamReader(
+
 							new FileInputStream("students.txt"))); 
 			String dataLine = reader.readLine();
 			String i[] = dataLine.split(",");
 			for(String j : i) { System.out.println(j); }
 			} catch (Exception e){} 
+
+							new FileInputStream("students.txt")));
+			String r = s.readLine();
+			String i[] = r.split(",");			
+			for(String j : i)
+			{ System.out.println(j); }
+			} catch (Exception e){
+
+			}
+
 			System.out.println("Data Loaded.");
 		}
 		else if(args[0].equals("r")) 
@@ -30,7 +41,9 @@ public class StudentList {
 			Random x = new Random();
 				int y = x.nextInt();
 					System.out.println(i[y]);
-			} catch (Exception e){} 
+			} catch (Exception e){
+
+			}
 			System.out.println("Data Loaded.");			
 		}
 		else if(args[0].contains("+")){
@@ -43,9 +56,17 @@ public class StudentList {
 	        String datePattern = "dd/mm/yyyy-hh:mm:ss a";
 	        DateFormat dateFormat = new SimpleDateFormat(df);
 	        String formattedDate= dateFormat.format(d);
+
 				fileOut.write("List last updated on "+dateline);
 				fileOut.close();
 			} catch (Exception e){}
+
+			s.write(", "+t+"\nList last updated on "+fd);
+			s.close();
+			} catch (Exception e){
+
+			}
+
 							
 			System.out.println("Data Loaded.");	
 		}
@@ -66,7 +87,10 @@ public class StudentList {
 						done=true;
 				}
 			}
-			} catch (Exception e){} 
+			}
+			catch (Exception e){
+
+			}
 			System.out.println("Data Loaded.");				
 		}
 		else if(args[0].contains("c")) 
@@ -88,8 +112,15 @@ public class StudentList {
 				}
 			}
 			System.out.println(count +" word(s) found " + a.length);
-			} catch (Exception e){} 
+			} catch (Exception e){
+
+			}
 			System.out.println("Data Loaded.");				
 		}
+
+
+			else{
+				System.out.println("Invalid Arguments!");
+			}
 	}
 }
