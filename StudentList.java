@@ -91,5 +91,10 @@ public class StudentList {
 			} catch (Exception e){} 
 			System.out.println("Data Loaded.");				
 		}
+
+
+			else{
+				System.out.println("Invalid Arguments!");
+			}
 	}
 }
