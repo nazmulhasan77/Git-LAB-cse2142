@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa7779ae-786b-40f0-81cd-c33a6bd05cc5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CSE2142 SDL Qustion.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentList.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +29,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Step1",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Documents/Rajshahi University/2nd Year 1st Semister/GIT/cse2142-main",
     "node.js.detected.package.eslint": "true",
@@ -62,11 +62,22 @@
       <option name="presentableId" value="Default" />
       <updated>1693060932795</updated>
       <workItem from="1693060933840" duration="611000" />
-      <workItem from="1693061558614" duration="113000" />
+      <workItem from="1693061558614" duration="870000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
