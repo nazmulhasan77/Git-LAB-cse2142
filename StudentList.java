@@ -43,8 +43,8 @@ public class StudentList {
 	        String datePattern = "dd/mm/yyyy-hh:mm:ss a";
 	        DateFormat dateFormat = new SimpleDateFormat(df);
 	        String formattedDate= dateFormat.format(d);
-			s.write(", "+t+"\nList last updated on "+fd);
-			s.close();
+				fileOut.write("List last updated on "+dateline);
+				fileOut.close();
 			} catch (Exception e){}
 							
 			System.out.println("Data Loaded.");	
